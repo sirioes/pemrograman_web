@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #EEF7FF;
 }
 
 /* header */
 header {
     background: url("../praktikum_html-css/images/laut.jpg");
-    color: white;
+    color: #EEF7FF;
     padding: 10px;
     margin-left: 40px;
     text-align: justify;
@@ -23,7 +23,7 @@ header {
 label[for="menu"] {
     font-size: 24px;
     cursor: pointer;
-    color: white;
+    color: #EEF7FF;
 }
 
 /* aside */
@@ -33,7 +33,7 @@ aside {
     left: -250px;
     width: 250px;
     height: 100%;
-    background: #f4f4f4;
+    background: #CDE8E5;
     padding: 20px;
     transition: left 0.3s;
 }
@@ -61,7 +61,7 @@ section {
     padding: 15px;
     background-color: white;
     border-radius: 5px;
-    border: 1px solid #fcf8f8;
+    border: 1px solid #EEF7FF;
     padding: 15px;
 }
 
@@ -85,7 +85,7 @@ section {
 }
 
 .biodata-diri {
-    color: #3e69b5;
+    color: #7AB2B2;
 }
 
 .foto-risma {
@@ -105,7 +105,7 @@ section {
 }
 
 .pendidikan-kuliah {
-    color: #3e69b5;
+    color: #7AB2B2;
 }
 
 .pendidikan-kuliah ul li {
@@ -114,7 +114,7 @@ section {
 }
 
 .bahasa-digunakan {
-    color: #3e69b5;
+    color: #7AB2B2;
 }
 
 .bahasa-digunakan ul li {
@@ -130,7 +130,7 @@ section {
 }
 
 .minat-bakat {
-    color: #3e69b5;
+    color: #7AB2B2;
 }
 
 .minat-bakat ul li {
@@ -139,7 +139,7 @@ section {
 }
 
 .bakat-minat {
-    color: #3e69b5;
+    color: #7AB2B2;
 }
 
 .bakat-minat {
@@ -152,8 +152,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
-    background-color: #8ca0ce;
-    color: white;
+    color: #4D869C;
     position: relative;
     bottom: 0;
     width: 100%;
