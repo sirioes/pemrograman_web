@@ -10,40 +10,50 @@ header {
     background: url("../praktikum_html-css/images/laut.jpg");
     color: white;
     padding: 10px;
-    text-align: center;
+    margin-left: 50px;
+    text-align: justify;
     position: relative;
     font-weight: bold;
 }
 
-/* nav */
-nav {
-    background-color: #8ca0ce;
+#menu {
+    display: none;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-    float: left;
-}
-
-nav ul li a {
-    display: block;
-    color: rgb(250, 251, 251);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #4361cc;
+label[for="menu"] {
+    font-size: 24px;
+    cursor: pointer;
     color: white;
+}
+
+/* aside */
+aside {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #f4f4f4;
+    padding: 20px;
+    transition: left 0.3s;
+}
+
+#menu:checked+aside {
+    left: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-right: 20px 0;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 /* section */
