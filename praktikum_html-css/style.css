@@ -1,3 +1,4 @@
+/* type selector */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,10 +7,12 @@ body {
 }
 
 header {
-    background-color: #3e69b5;
+    background: url("../praktikum_html-css/images/laut.jpg");
     color: white;
     padding: 10px;
     text-align: center;
+    position: relative;
+    font-weight: bold;
 }
 
 nav {
@@ -43,15 +46,17 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 20px;
-    margin: 20px 0;
+    padding: 15px;
     background-color: white;
     border-radius: 5px;
+    border: 1px solid #fcf8f8;
+    padding: 15px;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
+    text-decoration: none;
     background-color: #8ca0ce;
     color: white;
     position: relative;
@@ -59,29 +64,69 @@ footer {
     width: 100%;
 }
 
-/* Penggunaan Selektor */
+footer p a {
+    text-decoration: none;
+}
+
+/* class selector */
+.bagian-biodata {
+    display: flex;
+    gap: 500px;
+    align-items: center;
+    line-height: 0.7;
+    flex: 1;
+}
+
+.bagian-biodata p {
+    text-indent: 21.5px;
+}
+
+.foto-risma {
+    position: relative;
+    display: flex
+}
+
+.foto-risma img {
+    width: 200px;
+}
+
 .biodata-diri {
     color: #3e69b5;
+}
+
+.bahasa-digunakan {
+    color: #3e69b5;
+}
+
+.bahasa-digunakan ul li {
+    width: 45%;
+    text-align: left;
 }
 
 .pendidikan-kuliah {
     color: #3e69b5;
 }
 
+.pendidikan-kuliah ul li {
+    width: 45%;
+    text-align: right;
+}
+
 .minat-bakat {
     color: #3e69b5;
 }
 
+/* id selector */
 #biodata,
 #pendidikan,
 #keahlian {
     margin-bottom: 20px;
+    padding-left: 60px;
 }
 
-/* Penggunaan Box Model */
-section {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin: 20px 0;
-    box-shadow: 0 0 5px #626d73;
+#pendidikan-bahasa {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 550px;
 }
