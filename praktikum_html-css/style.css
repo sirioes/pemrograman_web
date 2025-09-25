@@ -116,10 +116,24 @@ footer p a {
     color: #3e69b5;
 }
 
+.minat-bakat ul li {
+    width: 45%;
+    text-align: right;
+}
+
+.bakat-minat {
+    color: #3e69b5;
+}
+
+.bakat-minat {
+    width: 100%;
+    text-align: right;
+}
+
 /* id selector */
 #biodata,
-#pendidikan,
-#keahlian {
+#pendidikan-bahasa,
+#keahliandasar-nonTeknis {
     margin-bottom: 20px;
     padding-left: 60px;
 }
@@ -129,4 +143,11 @@ footer p a {
     justify-content: space-between;
     padding-left: 60px;
     padding-right: 550px;
+}
+
+#keahlianDasar-nonTeknis {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 419px;
 }
