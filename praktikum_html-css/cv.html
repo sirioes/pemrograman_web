@@ -11,87 +11,77 @@
 
 <body>
     <!-- Penggunaan Header -->
-    <header class="header-opasity">
-        <h1>Ni Luh Risma Putri Wirdianthi</h1>
-        <p>Future Data Scientist</p>
-        <label for="menu">=</label>
+    <header class="header">
+        <div>
+            <h1>Ni Luh Risma Putri Wirdianthi</h1>
+            <p>Future Data Scientist</p>
+        </div>
     </header>
 
-    <!-- Penggunaan Side Bar -->
-    <input type="checkbox" id="menu">
-    <aside>
-        <nav>
-            <ul>
-                <li><a href="#biodata">Biodata</a></li>
-                <li><a href="#pendidikan-bahasa">Pendidikan</a></li>
-                <li><a href="#pendidikan-bahasa">Bahasa</a></li>
-                <li><a href="#keahlianDasar-nonTeknis">Keahlian</a></li>
-            </ul>
-        </nav>
-    </aside>
+    <main>
+        <!-- Penggunaan Section dan Div -->
+        <section id="biodata" class="bagian-biodata">
+            <div>
+                <h2 class="biodata-diri">Biodata Diri</h2>
+                <p>Alamat: Jl. Raya Batubulan, Perumahan Dangin Bethe Lestari</p>
+                <p>Email: wirdianthi05@gmail.com</p>
+                <p>Jenis Kelamin: Perempuan</p>
+                <p>Kewarganegaraan: Indonesia</p>
+                <p>Status: Mahasiswa</p>
+                <p>Agama: Hindu</p>
+                <p>Hobi: Membaca, Yoga, dan Lari</p>
+            </div>
 
-    <!-- Penggunaan Section dan Div -->
-    <section id="biodata" class="bagian-biodata">
-        <div>
-            <h2 class="biodata-diri">Biodata Diri</h2>
-            <p>Alamat: Jl. Raya Batubulan, Perumahan Dangin Bethe Lestari</p>
-            <p>Email: wirdianthi05@gmail.com</p>
-            <p>Jenis Kelamin: Perempuan</p>
-            <p>Kewarganegaraan: Indonesia</p>
-            <p>Status: Mahasiswa</p>
-            <p>Agama: Hindu</p>
-            <p>Hobi: Membaca, Yoga, dan Lari</p>
-        </div>
+            <div class="foto-risma">
+                <img src="../praktikum_html-css/images/foto-cv-risma.png" alt="Profile Picture Risma">
+            </div>
+        </section>
 
-        <div class="foto-risma">
-            <img src="../praktikum_html-css/images/foto-risma.png" alt="Profile Picture Risma">
-        </div>
-    </section>
+        <section id="pendidikan-bahasa">
+            <div>
+                <h2 class="pendidikan-kuliah">Pendidikan</h2>
+                <ul>
+                    <li>SD Kartika VII-3 Denpasar (2012 - 2018)</li>
+                    <li>SMP Negeri 6 Denpasar (2018 - 2021)</li>
+                    <li>SMA Negeri 2 Denpasar (2021 - 2024)</li>
+                    <li>Universitas Pendidikan Nasional - Teknologi Informasi (2024-Sekarang)</li>
+                </ul>
+            </div>
 
-    <section id="pendidikan-bahasa">
-        <div>
-            <h2 class="pendidikan-kuliah">Pendidikan</h2>
-            <ul>
-                <li>SD Kartika VII-3 Denpasar (2012 - 2018)</li>
-                <li>SMP Negeri 6 Denpasar (2018 - 2021)</li>
-                <li>SMA Negeri 2 Denpasar (2021 - 2024)</li>
-                <li>Universitas Pendidikan Nasional - Teknologi Informasi (2024-Sekarang)</li>
-            </ul>
-        </div>
+            <div>
+                <h2 class="bahasa-digunakan">Bahasa</h2>
+                <ul>
+                    <li>Indonesia</li>
+                    <li>Thailand</li>
+                    <li>Spanyol</li>
+                    <li>Tagalog</li>
+                </ul>
+            </div>
+        </section>
 
-        <div>
-            <h2 class="bahasa-digunakan">Bahasa</h2>
-            <ul>
-                <li>Indonesia</li>
-                <li>Thailand</li>
-                <li>Spanyol</li>
-                <li>Tagalog</li>
-            </ul>
-        </div>
-    </section>
+        <section id="keahlianDasar-nonTeknis">
+            <div>
+                <h2 class="minat-bakat">Keahlian Dasar</h2>
+                <ul>
+                    <li>Bahasa Pemrograman: Python, JavaScript</li>
+                    <li>Data Analysis: Pandas, NumPy, Matplotlib</li>
+                    <li>Machine Learning: Scikit-learn</li>
+                </ul>
+            </div>
 
-    <section id="keahlianDasar-nonTeknis">
-        <div>
-            <h2 class="minat-bakat">Keahlian Dasar</h2>
-            <ul>
-                <li>Bahasa Pemrograman: Python, JavaScript</li>
-                <li>Data Analysis: Pandas, NumPy, Matplotlib</li>
-                <li>Machine Learning: Scikit-learn</li>
-            </ul>
-        </div>
-
-        <div>
-            <h2 class="bakat-minat">Keahlian Non-Teknis</h2>
-            <ul>
-                <li>Bertanggung Jawab</li>
-                <li>Terorganisir dengan Baik</li>
-                <li>Manajemen Waktu</li>
-            </ul>
-        </div>
-    </section>
+            <div>
+                <h2 class="bakat-minat">Keahlian Non-Teknis</h2>
+                <ul>
+                    <li>Bertanggung Jawab</li>
+                    <li>Terorganisir dengan Baik</li>
+                    <li>Manajemen Waktu</li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
     <!-- Penggunaan Footer -->
-    <footer>
+    <footer class="footer">
         <p>
             Ikuti saya di: <a href="https://www.instagram.com/sch.idn/" target="_blank">Instagram</a> dan <a
                 href="http://www.linkedin.com/in/risma-putri-wirdianthi" target="_blank">LinkedIn</a>

@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #EEF7FF;
+    font-family: system-ui, 'Segoe UI';
+    margin-left: 380px;
+    margin-right: 380px;
+    background-color: #053157;
 }
 
 /* header */
@@ -10,71 +10,24 @@ header {
     background: url("../praktikum_html-css/images/laut.jpg");
     color: #EEF7FF;
     padding: 10px;
-    margin-left: 40px;
-    text-align: justify;
-    position: relative;
+    text-align: center;
     font-weight: bold;
-}
-
-#menu {
-    display: none;
-}
-
-label[for="menu"] {
-    font-size: 24px;
-    cursor: pointer;
-    color: #EEF7FF;
-}
-
-/* aside */
-aside {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background: #CDE8E5;
-    padding: 20px;
-    transition: left 0.3s;
-}
-
-#menu:checked+aside {
-    left: 0;
-}
-
-aside ul {
-    list-style: none;
-    padding: 0;
-}
-
-aside ul li {
-    margin-right: 20px 0;
-}
-
-aside ul li a {
-    color: white;
-    text-decoration: none;
 }
 
 /* section */
 section {
-    padding: 15px;
     background-color: white;
-    border-radius: 5px;
-    border: 1px solid #EEF7FF;
-    padding: 15px;
 }
 
 #biodata,
 #pendidikan-bahasa,
-#keahliandasar-nonTeknis {
-    margin-bottom: 5px;
-    padding-left: 60px;
+#keahlianDasar-nonTeknis {
+    padding-left: 30px;
 }
 
 .bagian-biodata {
     display: flex;
-    gap: 500px;
+    gap: 50px;
     align-items: center;
     line-height: 0.7;
     flex: 1;
@@ -100,8 +53,7 @@ section {
 #pendidikan-bahasa {
     display: flex;
     justify-content: space-between;
-    padding-left: 60px;
-    padding-right: 550px;
+    padding-right: 200px;
 }
 
 .pendidikan-kuliah {
@@ -125,8 +77,7 @@ section {
 #keahlianDasar-nonTeknis {
     display: flex;
     justify-content: space-between;
-    padding-left: 60px;
-    padding-right: 424px;
+    padding-right: 74px;
 }
 
 .minat-bakat {
@@ -148,16 +99,15 @@ section {
 }
 
 /* footer */
-footer {
+.footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 5px;
     text-decoration: none;
     color: #4D869C;
     position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #EEF7FF;
 }
 
-footer p a {
+.footer p a {
     text-decoration: none;
 }
