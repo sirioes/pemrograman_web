@@ -1,0 +1,73 @@
+/* body */
+body,
+h1,
+h2,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: aliceblue;
+    color: azure;
+    text-align: center;
+    margin-bottom: 2opx;
+}
+
+h1,
+h2 {
+    margin-bottom: 10px;
+}
+
+/* nav */
+nav {
+    background-color: #4D869C;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+main {
+    background: url(/praktikum_html-css/images/laut.jpg);
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    background-color: #4D869C;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p a {
+    text-decoration: none;
+}
